@@ -9,4 +9,4 @@
         3. Al elegir una opción de la etiqueta select (una promoción en especial) nos aparecerán todas las coders que 
            pertenecen a la promoción escogida. 
            
-           <a href="https://mgmp2.github.io/codersDeLaboratoria/">Click para ver </a>
+   <a href="https://mgmp2.github.io/codersDeLaboratoria/">Click para ver </a>
