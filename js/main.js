@@ -8,17 +8,16 @@ window.addEventListener("load", function (){
 
 select.onchange = function (){
   if(select.value =="fourthChile"){
-    removeClass("fourthChile");
+    filterCoder("fourthChile");
   } else if(select.value =="fifthLima"){
-    removeClass("fifthLima");
+    filterCoder("fifthLima");
 
   } else if(select.value =="sixthLima"){
-    removeClass("sixthLima");
-
+    filterCoder("sixthLima");
   }
 }
 
-function removeClass(clase){
+function filterCoder(clase){
   for (var i = 0; i < img.length; i++) {
     console.log(img[i].getAttribute(clase));
     img[i].classList.remove("active");
@@ -38,7 +37,4 @@ function showCoders(etiquetaImg){
     cdf.appendChild(etiquetaImg);
     show.appendChild(cdf);
   }
-
-
-  //  safePanel( document.getElementById("id-div-share").firstChild, document.getElementById("id-div-share").lastChild.)
 }
