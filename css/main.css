@@ -1,0 +1,22 @@
+.box-coders {
+  width: 1100px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+div > select {
+  margin-left: 40%;
+}
+.coders {
+  display: none;
+  width: 20%;
+  height: 20%;
+  margin: 21px;
+}
+.active {
+  display: inline-block;
+}
+.corders-lab {
+  margin: 0 auto;
+}
