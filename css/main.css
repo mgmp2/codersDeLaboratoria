@@ -17,6 +17,6 @@ div > select {
 .active {
   display: inline-block;
 }
-.corders-lab {
+#corders-lab {
   margin: 0 auto;
 }
